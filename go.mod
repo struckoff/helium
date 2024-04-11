@@ -1,4 +1,4 @@
-module github.com/im-kulikov/helium
+module github.com/struckoff/helium
 
 go 1.19
 
