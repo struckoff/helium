@@ -7,7 +7,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/im-kulikov/helium/module"
+	"github.com/struckoff/helium/module"
 )
 
 // Module graceful context.

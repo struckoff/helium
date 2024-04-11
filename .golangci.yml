@@ -37,7 +37,7 @@ linters-settings:
     sections:
       - standard
       - default
-      - prefix(github.com/im-kulikov/helium)
+      - prefix(github.com/struckoff/helium)
   dupl:
     threshold: 100
   goconst:

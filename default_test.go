@@ -11,8 +11,8 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/im-kulikov/helium/module"
-	"github.com/im-kulikov/helium/service"
+	"github.com/struckoff/helium/module"
+	"github.com/struckoff/helium/service"
 )
 
 type errService struct {

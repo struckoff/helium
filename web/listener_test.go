@@ -9,7 +9,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/im-kulikov/helium/internal"
+	"github.com/struckoff/helium/internal"
 )
 
 type (

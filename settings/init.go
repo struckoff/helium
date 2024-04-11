@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/im-kulikov/helium/module"
+	"github.com/struckoff/helium/module"
 )
 
 // Module of config things.

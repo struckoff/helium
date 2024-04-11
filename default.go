@@ -1,8 +1,8 @@
 package helium
 
 import (
-	"github.com/im-kulikov/helium/module"
-	"github.com/im-kulikov/helium/service"
+	"github.com/struckoff/helium/module"
+	"github.com/struckoff/helium/service"
 )
 
 // DefaultApp defines default helium application and provides service.Module.

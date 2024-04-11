@@ -15,11 +15,11 @@ import (
 	"go.uber.org/dig"
 	"go.uber.org/zap"
 
-	"github.com/im-kulikov/helium/grace"
-	"github.com/im-kulikov/helium/internal"
-	"github.com/im-kulikov/helium/logger"
-	"github.com/im-kulikov/helium/module"
-	"github.com/im-kulikov/helium/settings"
+	"github.com/struckoff/helium/grace"
+	"github.com/struckoff/helium/internal"
+	"github.com/struckoff/helium/logger"
+	"github.com/struckoff/helium/module"
+	"github.com/struckoff/helium/settings"
 )
 
 type (

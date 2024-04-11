@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/dig"
 
-	"github.com/im-kulikov/helium/module"
+	"github.com/struckoff/helium/module"
 )
 
 type outParams struct {

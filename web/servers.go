@@ -10,9 +10,9 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"github.com/im-kulikov/helium/internal"
-	"github.com/im-kulikov/helium/module"
-	"github.com/im-kulikov/helium/service"
+	"github.com/struckoff/helium/internal"
+	"github.com/struckoff/helium/module"
+	"github.com/struckoff/helium/service"
 )
 
 type (

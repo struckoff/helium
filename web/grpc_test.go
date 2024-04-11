@@ -11,7 +11,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/im-kulikov/helium/group"
+	"github.com/struckoff/helium/group"
 )
 
 const listenSize = 256 * 1024

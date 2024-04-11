@@ -1,7 +1,7 @@
 package logger
 
 import (
-	"github.com/im-kulikov/helium/module"
+	"github.com/struckoff/helium/module"
 )
 
 // Module of loggers

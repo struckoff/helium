@@ -11,7 +11,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/im-kulikov/helium/settings"
+	"github.com/struckoff/helium/settings"
 )
 
 func TestZapLogger(t *testing.T) {

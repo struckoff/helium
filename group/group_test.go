@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/im-kulikov/helium/internal"
+	"github.com/struckoff/helium/internal"
 )
 
 type testCase struct {

@@ -3,7 +3,7 @@ package settings
 import (
 	"go.uber.org/dig"
 
-	"github.com/im-kulikov/helium/module"
+	"github.com/struckoff/helium/module"
 )
 
 type (

@@ -24,8 +24,8 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/im-kulikov/helium/module"
-	"github.com/im-kulikov/helium/service"
+	"github.com/struckoff/helium/module"
+	"github.com/struckoff/helium/service"
 )
 
 type (

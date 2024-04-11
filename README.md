@@ -2,11 +2,11 @@
 
 ![Codecov](https://img.shields.io/codecov/c/github/im-kulikov/helium.svg?style=flat-square)
 [![Maintainability](https://api.codeclimate.com/v1/badges/01507c1d7c4b9649b1a7/maintainability)](https://codeclimate.com/github/im-kulikov/helium/maintainability)
-[![Build Status](https://github.com/im-kulikov/helium/workflows/Go/badge.svg)](https://github.com/im-kulikov/helium/actions)
-[![Report](https://goreportcard.com/badge/github.com/im-kulikov/helium)](https://goreportcard.com/report/github.com/im-kulikov/helium)
-[![GitHub release](https://img.shields.io/github/release/im-kulikov/helium.svg)](https://github.com/im-kulikov/helium)
+[![Build Status](https://github.com/struckoff/helium/workflows/Go/badge.svg)](https://github.com/struckoff/helium/actions)
+[![Report](https://goreportcard.com/badge/github.com/struckoff/helium)](https://goreportcard.com/report/github.com/struckoff/helium)
+[![GitHub release](https://img.shields.io/github/release/im-kulikov/helium.svg)](https://github.com/struckoff/helium)
 ![GitHub](https://img.shields.io/github/license/im-kulikov/helium.svg?style=popout)
-[![Sourcegraph](https://sourcegraph.com/github.com/im-kulikov/helium/-/badge.svg)](https://sourcegraph.com/github.com/im-kulikov/helium?badge)
+[![Sourcegraph](https://sourcegraph.com/github.com/struckoff/helium/-/badge.svg)](https://sourcegraph.com/github.com/struckoff/helium?badge)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=im-kulikov/helium)](https://dependabot.com)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fim-kulikov%2Fhelium.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fim-kulikov%2Fhelium?ref=badge_shield)
 
@@ -76,8 +76,8 @@ package main
 import (
   "github.com/spf13/viper"
   
-  "github.com/im-kulikov/helium"
-  "github.com/im-kulikov/helium/settings"
+  "github.com/struckoff/helium"
+  "github.com/struckoff/helium/settings"
 )
 
 func defaults(v *viper.Viper) {
@@ -110,8 +110,8 @@ import (
     "fmt"
     "time"
 
-    "github.com/im-kulikov/helium/group"
-    "github.com/im-kulikov/helium/service"
+    "github.com/struckoff/helium/group"
+    "github.com/struckoff/helium/service"
 )
 
 func prepare(svc service.Service) (group.Callback, group.Shutdown) {
@@ -177,8 +177,8 @@ package main
 import (
   "context"
 
-  "github.com/im-kulikov/helium/service"
-  "github.com/im-kulikov/helium/group"
+  "github.com/struckoff/helium/service"
+  "github.com/struckoff/helium/group"
 )
 
 type app struct {}
@@ -196,8 +196,8 @@ package some_pkg
 import (
     "context"
 
-    "github.com/im-kulikov/helium/module"
-    "github.com/im-kulikov/helium/service"
+    "github.com/struckoff/helium/module"
+    "github.com/struckoff/helium/service"
     "go.uber.org/dig"
 )
 
@@ -242,8 +242,8 @@ import (
     
     "go.uber.org/dig"
 
-    "github.com/im-kulikov/helium/module"
-    "github.com/im-kulikov/helium/service"
+    "github.com/struckoff/helium/module"
+    "github.com/struckoff/helium/service"
 )
 
 // for multiple services use `group:"services,flatten"`
@@ -629,8 +629,8 @@ OPS_DISABLE_HEALTHY=bool
 package my
 
 import (
-  "github.com/im-kulikov/helium/module"
-  "github.com/im-kulikov/helium/web"
+  "github.com/struckoff/helium/module"
+  "github.com/struckoff/helium/web"
   "github.com/k-sone/snmpgo"
   "github.com/spf13/viper"
   "go.uber.org/zap"
@@ -696,8 +696,8 @@ func (l *SNMPListener) OnTRAP(trap *snmpgo.TrapRequest) {
 package my
 
 import (
-  "github.com/im-kulikov/helium/module"
-  "github.com/im-kulikov/helium/web"
+  "github.com/struckoff/helium/module"
+  "github.com/struckoff/helium/web"
   "go.uber.org/dig"
   "go.uber.org/zap"
   "google.golang.org/grpc"
@@ -764,13 +764,13 @@ import (
 	"go.uber.org/dig"
 	"go.uber.org/zap"
 	
-	"github.com/im-kulikov/helium"
-	"github.com/im-kulikov/helium/grace"
-	"github.com/im-kulikov/helium/logger"
-	"github.com/im-kulikov/helium/module"
-	"github.com/im-kulikov/helium/service"
-	"github.com/im-kulikov/helium/settings"
-	"github.com/im-kulikov/helium/web"
+	"github.com/struckoff/helium"
+	"github.com/struckoff/helium/grace"
+	"github.com/struckoff/helium/logger"
+	"github.com/struckoff/helium/module"
+	"github.com/struckoff/helium/service"
+	"github.com/struckoff/helium/settings"
+	"github.com/struckoff/helium/web"
 )
 
 func main() {
@@ -832,7 +832,7 @@ Helium is available as a [Go module](https://github.com/golang/go/wiki/Modules).
 
 - [Evgeniy Kulikov](https://github.com/im-kulikov) - Author
 - [Alexander Tischenko](https://github.com/archaron) - Consultant
-- [Contributors](https://github.com/im-kulikov/helium/graphs/contributors)
+- [Contributors](https://github.com/struckoff/helium/graphs/contributors)
 
 ## License
 

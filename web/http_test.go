@@ -17,8 +17,8 @@ import (
 	"go.uber.org/zap/zaptest"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/im-kulikov/helium/group"
-	"github.com/im-kulikov/helium/internal"
+	"github.com/struckoff/helium/group"
+	"github.com/struckoff/helium/internal"
 )
 
 type logger struct {
